@@ -6,6 +6,7 @@
 package com.fvgprinc.app.usomodulos;
 
 import com.fvgprinc.app.javamoduletest2.producto.Producto;
+import com.fvgprinc.tools.string.MyCommonString;
 
 /**
  *
@@ -20,7 +21,7 @@ public class UsoProductos {
         
         String scrap = "Esto es una prueba";
         
-       
+       scrap = MyCommonString.EMPTYSTR;
         
         System.out.println( miProducto.getDescuento());
     }

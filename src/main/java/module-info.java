@@ -5,4 +5,5 @@
 
 module usoModulos {
     requires javaModuleTest;
+    requires com.fvgprinc.tools.string;
 }
